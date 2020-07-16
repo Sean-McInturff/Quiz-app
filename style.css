@@ -1,0 +1,104 @@
+/*Background Image*/
+body{
+    background-image: url(https://c.stocksy.com/a/GPJ200/z9/551258.jpg);
+}
+/*sizing for the header container*/
+header {
+  height:75px;
+  margin-bottom: 80px;
+  text-align:center;
+}
+/*styling for the title*/
+header h1{
+    font-size: 45px;
+    color: white;
+    text-shadow:#2D1C14 1px 0 10px;
+    font-family: 'Lobster', cursive;
+  }
+/*Styling for the question and score counter*/
+header li{
+  font-family: 'Lobster', cursive;
+  list-style: none;
+  margin: 5px;
+  font-size: 25px;
+  color: white;
+  text-shadow:#2D1C14 1px 0 10px;
+}
+
+/*Styling for the content container*/
+fieldset {
+  font-family: 'Montserrat', sans-serif;
+  background-color:#CB8F6D;
+  width: 50%;
+  box-shadow:#2D1C14 0px 1px 5px 0px,#2D1C14  0px 4px 15px 0px;
+  border:none;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+/*Styling for the questions in the content container*/
+fieldset h3{
+  font-size:25px;
+}
+
+/*Aligning content within the content container*/
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+/*General styling for the buttons*/
+.item button{
+  background-color:#2D1C14;
+  color:#BB7046;
+  font-family: 'Montserrat', sans-serif;
+  font-size:15px;
+  height:60px;
+  width: 95px;
+  padding: 5px;
+  border:none;
+  box-shadow:black 0px 1px 5px 0px,black 0px 4px 15px 0px ;
+}
+
+/*Styling for the submit answer button*/
+.item #submit-answer, #next{
+  font-family: 'Montserrat', sans-serif;
+  float:right;
+  height:60px;
+  width: 120px;
+  padding: 5px;
+}
+
+/*Styling for the questions*/
+.js-options{
+list-style:none;
+font-size: 25px;
+}
+
+/*Arranging items in the response container and rounding the corners*/
+.response{
+   display:block;
+   border-radius:10px;
+}
+
+/*Styling for the "Correct" response box*/
+.correct{
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px 10px;
+  margin:8px;
+  width: 110px;
+  background-color:#FFFAF0;
+  color:green;
+  border: 1.5px solid black;
+}
+
+/*Styling for the "incorrect" response box*/
+.incorrect{
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px 10px;
+  margin:8px;
+  background-color:#FFFAF0;
+  color:#B22222;
+  border: 1.5px solid black;
+}
