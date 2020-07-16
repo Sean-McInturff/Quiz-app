@@ -96,6 +96,7 @@ font-size: 25px;
 /*Styling for the "incorrect" response box*/
 .incorrect{
   font-family: 'Montserrat', sans-serif;
+  width:300px;
   padding: 5px 10px;
   margin:8px;
   background-color:#FFFAF0;
